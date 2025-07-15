@@ -6,7 +6,7 @@ from langchain_community.tools.ddg_search.tool import DuckDuckGoSearchResults  #
 # 1. Set up Gemini LLM
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
-    google_api_key="AIzaSyCoVI0AUkemJSo51ZbhveoWhy94u-otqus",  # 🔐 Replace with your real Gemini key
+    google_api_key="",  # 🔐 Replace with your real Gemini key
     temperature=0.7
 )
 
